@@ -23,14 +23,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>fr.dudie</groupId>
+    <groupId>com.github.geppyz</groupId>
     <artifactId>nominatim-api</artifactId>
     <version>${revision}</version>
     <packaging>jar</packaging>
 
     <name>Nominatim Java API client</name>
     <description>A simple client library for the Nominatim API written in Java</description>
-    <url>https://github.com/jeremiehuchet/nominatim-java-api</url>
+    <url>https://github.com/geppyz/nominatim-java-api</url>
     <inceptionYear>2010</inceptionYear>
 
     <organization>
@@ -46,38 +46,39 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/jeremiehuchet/nominatim-java-api/tree/master</url>
-        <connection>scm:git:git@github.com:jeremiehuchet/nominatim-java-api.git</connection>
-        <developerConnection>scm:git:git@github.com:jeremiehuchet/nominatim-java-api.git</developerConnection>
+        <url>https://github.com/geppyz/nominatim-java-api/tree/master</url>
+        <connection>scm:git:git@github.com:geppyz/nominatim-java-api.git</connection>
+        <developerConnection>scm:git:git@github.com:geppyz/nominatim-java-api.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
     <issueManagement>
         <system>Github tracker</system>
-        <url>https://github.com/jeremiehuchet/nominatim-java-api/issues</url>
+        <url>https://github.com/geppyz/nominatim-java-api/issues</url>
     </issueManagement>
 
     <developers>
         <developer>
             <name>Jeremie Huchet</name>
         </developer>
+        <developer>
+            <name>GeppyZ</name>
+        </developer>
     </developers>
 
     <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
         <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>github</id>
+            <name>GitHub GeppyZ Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/geppyz/nominatim-java-api</url>
         </repository>
     </distributionManagement>
+
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <license.licenseName>lgpl_v3</license.licenseName>
-        <revision>0-SNAPSHOT</revision>
+        <revision>1.0.0-SNAPSHOT</revision>
 
         <!-- compile time deps versions -->
         <geogson-jts.version>1.4.31</geogson-jts.version>
