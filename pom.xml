@@ -78,7 +78,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <license.licenseName>lgpl_v3</license.licenseName>
-        <revision>1.0.0-SNAPSHOT</revision>
+        <revision>1.0.0</revision>
 
         <!-- compile time deps versions -->
         <geogson-jts.version>1.4.31</geogson-jts.version>
