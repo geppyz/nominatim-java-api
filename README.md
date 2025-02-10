@@ -14,6 +14,8 @@ However since I personally cannot get these OpenAPI contracts to generate correc
 Quickstart
 ----------
 
+[![](https://jitpack.io/v/geppyz/nominatim-java-api.svg)](https://jitpack.io/#geppyz/nominatim-java-api)
+
 Maven users can add the following dependency to their pom.xml:
 
     <dependency>
